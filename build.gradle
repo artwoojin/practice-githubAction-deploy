@@ -21,5 +21,5 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-- name: Add permission
-  run: chmod +x ./gradlew
+- name: Run chmod to make gradlew executable
+   run: chmod +x ./gradlew
